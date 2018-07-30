@@ -1,7 +1,7 @@
 How to use the registration programm?
 First step : getting started
 	- download and install Elastix on http://elastix.isi.uu.nl/download.php .
-	- add Elastix to the system path (windows https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/, Linux https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path).
+	- add Elastix to the system path (for windows https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/, for Linux https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path).
 	- add the MelastiX code directory to your MATLAB path (https://github.com/raacampbell/matlab_elastix).
 	- add yamlmatlab to your MATLAB path.
 
@@ -9,5 +9,7 @@ Second step : setting up the registration
 	- add all folders containing the images you want to register to your MATLAB path.
 	- add the folder containing the input parameter files to your MATLAB path.
 	- be sure that the function head_direction.m InitialAlignment.m getTiff2gray.m and getTiffs2gray.m are in your MATLAB path.
+	- have the OPT-Matlab folder into your MATLAB path.
+
 Last step : launch the registration programm
 	- follow the pop-up messages
