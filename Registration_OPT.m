@@ -128,7 +128,7 @@ h = waitbar(0,'resizing images...');
 for i = 1:numImages    
     for j = 1:3
         images{i,j} = padarray(images{i,j},[resultImage(i,1),resultImage(i,2),0],0,'post');
-        direction(i) = head_direction(images{i,1});
+        direction(i) = HeadDirection(images{i,1});
     
 
 
